@@ -1,0 +1,14 @@
+.img_receita2{
+    background-image: url(../img/docinhos-de-casca-de-laranja-840x480.jpg);
+    width: 500px;
+    height: 500px;
+    background-position: center;
+}
+.ingredientes{
+    font-family: 'Source Code Pro', monospace;
+
+}
+.modo_de_preparo{
+    font-family: 'Source Code Pro', monospace;
+
+}

@@ -1,0 +1,155 @@
+/* background image */
+.bgimage{
+    background-image: url(../img/tecnologia.jpg);
+    color: blue;
+}
+
+.bgimage-naocentral, .bgimage-central{
+    background-image: url(../img/senaclargo13.jpg);
+    width: 400px;
+    height: 400px;
+}
+
+.bgimage-central{
+    background-position: center;
+    background-size: cover;
+}
+
+/* Altura e Largura */
+.altura-largura{
+    height: 500px;
+    width: 200px;
+    background-color: blueviolet;
+}
+.altura-largura-nova{
+    height: 200px;
+    background-color: #999;
+}
+
+/* Padding */
+.sem-padding{
+background-color: aqua;
+padding: none;
+width: 200px;
+height: 200px;
+}
+.com-padding{
+width: 300px;
+height: 300px;
+background-color: blueviolet;
+padding: 10px;
+}
+
+/* padding porr lados */
+.padding-lados{
+    background-color: crimson;
+    color: #fff;
+    padding-top: 10px;
+    padding-left: 150px;
+    padding-right: 5px;
+    padding-bottom: 40px;
+}
+
+/* Shorthand properties/ propriedades abreviadas */
+.shorthand-padding{
+    background-color: #333;
+    padding: 6px 12px 18px 24px;
+}
+
+.shorthand-padding2{
+    background-color: #555;
+    color: blue;
+    padding: 20px 20px;  /* é o mesmo que paddin 10px 20px 10px 20px */
+}
+
+/* Borda */
+.border{
+    border: 5px solid blue;
+    padding: 10px;
+}
+.border2{
+    border: 2px dotted rgb(19, 176, 224);
+    padding: 25px;
+}
+/* borda individual por lados */
+.borda-esquerda{
+border-left: 3px solid yellowgreen;
+background-color: #111;
+color: #fff;
+padding: 25px;
+}
+.borda-inferior{
+border-bottom: 7px double #548;
+background-color: #111;
+padding: 25px;
+color: #fff;
+}
+
+.borda-superior{
+    border-top: 10px dotted red;  /* pontilhada */
+    background-color:black;
+    color: gray;
+    padding: 10px;
+}
+.borda-direita{
+    border-right: 2px dashed rgb(233, 60, 190);
+    background-color: cornflowerblue;
+    color: purple;
+    padding: 10px;
+}
+
+/* borda diferente em todos os lados ao mesmo tempo */
+.borda-total{
+    border-left: 5px double rosybrown; /* linha dupla */
+    border-right: 5px solid yellow; /* solida */
+    border-top: 5px dotted salmon; /* pontilhada */
+    border-bottom: 5px dashed orange; /* tracejada */
+    color: white;
+    background-color: black; 
+    padding: 25px;
+}
+
+/* Borda arredondada */
+.paragrafo-arredondado{
+    border: 5px solid red;
+    background-color: burlywood;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.paragrafo-arredondado2{
+    background-color: burlywood;
+    color: royalblue;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+/* Margem */
+.margem{
+    margin: 10px;
+    background-color: darkblue;
+    color: yellow;
+}
+
+.margem-no-topo{
+    margin-top: 70px;
+    background-color: dodgerblue;
+    padding: 10px;
+}
+
+.margem-diferenciada{
+    background-color: cornflowerblue;
+    margin: 7px 10px 9px 30px;
+}
+
+/* box model - juntos */
+.box-model{
+    background-color: aqua;
+    color: black;
+    width: 200px;
+    height: 200px;
+    padding: 10px 25px 15px 25px;
+    border: 5px solid violet;
+    margin: auto;
+}

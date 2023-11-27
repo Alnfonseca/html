@@ -1,0 +1,74 @@
+/* nome das cores  */
+.color-name{
+    color:aqua;
+}
+
+/* rgb */
+
+.rgb{
+    color: rgb(255,0,0);
+}
+.rgb-misturado{
+    color: rgb(209,21,99);
+}
+.rgba{
+    color:rgba(100,99,45,0.3);
+}
+
+/* HEX */
+.hex{
+    color: #55a398;
+}
+
+.hex2{
+    color: #3700ff;
+}
+
+/* hexadecimal simplificado */
+.hex-simplificado{
+    color: #a5a;
+}
+
+.hex-simple2{
+    color: #a6e;
+}
+
+/* HSL */
+.hsl{
+    color: hsl(100, 20%, 50%);
+}
+.hsl2{
+    color: hsla(276, 92%, 51%, 0.678);
+}
+/* background color no corpo de site */
+body{
+    background-color: beige;
+}
+/* background color  */
+.backgroundcolor{
+    background-color: #000;
+    color:gold;
+}
+
+.bg2{
+    background-color: rgb(100, 50, 33);
+    color: #0fa;
+}
+
+/* opacidade no background color */
+
+.bg-sem-opacidade{
+    background-color: red;
+    opacity:0.2;
+}
+
+.bg-com-opacidade{
+    background-color: #888;
+    color: black;
+    opacity: 0.8px;
+}
+
+.rgba-opacidade{
+    background-color: rgba(108, 146, 37, 0.8);
+    color: red;
+}

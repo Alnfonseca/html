@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+    
+.capa-fundo{
+    background-image: url(../img/capa\ the\ weeknd.PNG);
+   width: 1920px;
+   height: 1062px;
+   margin: auto;
+}
+.the-weeknd{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    text-align: left;
+    font-size: 150px;
+    margin: auto;
+}
+ /* .foto-perfil{
+    background-image: url(../img/foto\ perfil\ the\ weeknd\ pronta.png);
+    width: 720px;
+    height: 405px;
+    margin-left: 600px; 
+    
+} */
+/* .fundo-nome{
+
+} */
+.fundo-perfil{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+}
+.biografia{
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+    /* border: 3px ridge grey; */
+    border-radius: 20px;
+    padding: 5px 20px 100px 20px;
+    width: 600px;
+    height: 150px;
+   margin-left: 700px;
+    font-size: 30px;
+}
+.Historia-tit{ 
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+    margin-left: 940px;
+    font-size: 30px;
+}
+/* .after-hours{
+ 
+    width: 359px;
+    height: 359px;
+    background-position: center;
+    color: white; 
+}*/
+    
+
+.starboy, .MDM, .after-hours, .LAS, .beauty-behind, .the-idol, .Discografia-tit, .musicas-fav{
+    font-family: 'Source Code Pro', monospace;
+    width: 359px;
+    height: 359px;
+    background-position: center;
+    color: white;
+    margin: 100px;
+    position: absolute;
+   border: 3px solid red;
+    font-size: 27px;
+    right: auto;
+}
+.musicas-fav{
+    top: 2000px; 
+    left: 700px;
+    border: none;
+    font-size: 17px;
+}
+.Discografia-tit{
+    font-family: 'Source Code Pro', monospace;
+    top: 970px;
+    border: none;
+}
+.after-hours{
+    left: 1400px;
+    top: 1100px;
+    float: left;
+    
+}
+.starboy{
+    top: 1100px;
+    float: right;
+}
+.MDM{
+    top: 1500px;
+    float: right;
+    font-size: 23px;
+}
+.LAS{
+    left: 1430px;
+    top: 2000px;
+    float: left;
+}
+.beauty-behind{
+    top: 2000px;   
+    float: right;
+    font-size: 27px;
+}
+.the-idol{
+    
+    left: 1400px;
+    top: 1500;
+    float: left;
+    /* border-bottom: 3px solid red; */
+}
+.the-hills, .blinding-lights{
+    left:750px;
+    background-position:center;
+    position: absolute; 
+    /* display: block; */
+   /* border: 3px solid blue; */
+   top: 2100px;
+   color: white;
+   font-size: 30px;
+   font-family: 'Source Code Pro', monospace;
+   
+}
+.the-hills{
+    /* top: 2000px; */
+    left: 1030px;
+    top: 2100px;
+}
+.blinding-lights{
+    /* top: 2000px; */
+    left: 550px;
+    right: 200px;
+}
+.caixa-mensagem{
+    width: 100px;
+    height: 100PX;
+    /* background-color: darkred; */
+    position: fixed;
+    top: 810px;
+    left: 1800px;
+    color: white;
+    text-align: center;
+}
+.pagina2, .instagram, .facebook{
+    font-family: 'Source Code Pro', monospace;
+    top: 2510px;
+    position: absolute;
+    text-decoration: none;
+    font-size: 25px;
+}
+.instagram{
+    top: 2600px;
+    left: 50px;
+}
+.facebook{
+    top: 2600px;
+    left: 100px;
+    right: auto;
+}
+.pagina2{
+    left: 30px;
+    right: auto;
+}
+
+.letra-the-hills{
+    color: aliceblue;
+    
+}

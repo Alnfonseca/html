@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
+/* alinhamento de texto */
+.alinhamento-direita{
+    text-align: right;
+}
+.alinhamento-esquerda{
+    text-align: left;
+}
+.centralizar-container{
+    text-align: center;
+    width: 200px;
+    border: 4px solid salmon;
+}
+.alinhamento-justificado{
+    text-align: justify;
+    color: chocolate;
+    border: 3px solid salmon;
+    width: 200px;
+    margin: 5px;
+}
+/* Text decoration */
+.underline{
+    text-decoration: underline;
+}
+.line-through{
+    text-decoration: line-through #888;
+
+}
+.overline{
+    text-decoration: overline;
+}
+.remove-underline{
+    text-decoration: none;
+    color: chocolate;
+}
+/* espaçamento entre as letras */
+.spacing{
+    letter-spacing: 8px;
+}
+/* 1em = 16px */
+
+/* fontes */
+.fonte-serif{
+font-family: serif;
+}
+
+.fonse-sans-serif{
+font-family: sans-serif;
+}
+
+.fonte-monospace{
+font-family: monospace;
+}
+
+.fonte-cursive{
+font-family: cursive;
+}
+
+.fonte-fantasy{
+font-family: fantasy;
+}
+
+.trazendo-familiadefonte{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blueviolet;
+}
+
+/*  trazendo fonte do google*/
+
+.importando-fonte{
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+.importando-fonte2{
+    font-family: 'Fuggles', cursive;
+    font-size: 30px;
+}
+
+/* Estilo de Fonte */
+.normal{
+    font-style: normal;
+}
+.italic{
+    font-style: italic;
+}
+.oblique{
+    font-style: oblique;
+}
+
+/* Espessura da Fonte */
+.lighter, .bolde, .bolder{
+    font-family: helvetica;
+}
+
+.lighter{
+    font-weight: 100;
+}
+.bold{
+font-weight: 600;
+}
+.bolder{
+    font-weight: 900;
+}
+
+/* tamanho da fonte */
+.tamanho-30px{
+    font-size: 30px;
+}
+.tamanho-150px{
+    font-size: 150px;
+}
+
+.xx-small{
+    font-size: xx-small;
+}
+.xx-large{
+    font-size: xx-large;
+}
+/* ////////////////////////////////////////////////////////////// */
+/* display: bloco embutido */
+.inline-block{
+    height: 500px;
+    width: 500px;
+    background-color: #754;
+    font-size: xx-large;
+    color:white;
+    margin: 15px;
+    display: inline-block;
+    
+}
+
+/* Display: bloco de exibição */
+.block{
+    background-color: darkmagenta;
+    font-size: xx-large;
+    color: white;
+    margin: 10px;
+
+        display: block;
+}
+
+/* escondendo elemento */
+.escondendo{
+    display: none;
+}
+
+/* posição estatica - Ele segue o fluxo do HTML,
+ static não é afetato por top, left, right, botton*/
+ .static{
+    background-color: #848;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    position: static;
+ }
+
+ /* ;posição relativa */
+ .relative{
+    width: 100px;
+    height: 100px;
+    background-color: #333;
+    color: #fff;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    margin: 50px;
+ }
+
+ /* posição absoluta */
+ .absolute{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #785;
+    color: #fff;
+    top: 2px;
+    right: 2px;
+ }
+ /* position relative + absolute */
+ .bloco-relativo{
+    width: 250px;
+    height: 250px;
+    border: 2px solid blue;
+    margin-top: 100px;
+    position: relative;
+    
+ }
+ .bloco-absoluto-1, .bloco-absoluto-2{
+    width: 70px;
+    height: 70px;
+    background-color: brown;
+    position: absolute;
+ }
+ .bloco-absoluto-1{
+    top: 10px;
+    left: 10px;
+ }
+ .bloco-absoluto-2{
+    bottom: 10px;
+    right: 10px;
+ }
+ /* posição fixada */
+ .bloco-fixado{
+    width: 100px;
+    height: 100PX;
+    background-color: blue;
+    position: fixed;
+    top: 100px;
+    color: white;
+ }
+
+ /* posição sticky */
+ .sticky{
+    width: 150px;
+    height: 150px;
+    background-color: firebrick;
+    color: aliceblue;
+    border: 2px solid black;
+    position: sticky;
+    top: 10px;
+    margin-left: 750px;
+ }
+ 
+ /* z-index - eu aproveitei o style anterios do ".bloco-relativo" position relative + absolute */
+ .bloco-absoluto-5, .bloco-absoluto-6, .bloco-absoluto-7{
+    width: 60px;
+    height: 60px;
+    background-color: coral;
+    position: absolute;
+ }
+ /* no z-index o maior numero sempre vai ficar na frente */
+ .bloco-absoluto-5{
+    top: 0;
+    left: 0;
+    z-index: 1;
+ }
+ .bloco-absoluto-6{
+    top: 15px;
+    left: 15px;
+    background-color: darkblue;
+ }
+ .bloco-absoluto-7{
+    top: 30px;
+    left: 30px;
+    background-color: fuchsia;
+    z-index: -1;
+ }

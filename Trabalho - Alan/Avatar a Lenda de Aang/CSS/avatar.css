@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,200&display=swap');
+.capa-avatar{
+    background-image: url(../img/capa\ aang.jpg);
+   width: 1920px;
+   height: 1062px;
+   margin: auto;
+}
+.legenda-fundo{
+   width: 707px;
+   height: 353px;
+   margin: auto;
+}
+.caixa-mensagem{
+    width: 100px;
+    height: 100PX;
+    /* background-color: darkred; */
+    position: fixed;
+    top: 810px;
+    left: 1800px;
+    color: white;
+    text-align: center;
+}
+.sinopse-texto, .sinopse, .michael, .avaliacao-tit{
+    color:#854829;
+    /* border: 3px ridge grey; */
+    border-radius: 20px; 
+    padding: 20px;
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    font-size: 30px;
+    font-family: 'Exo 2', sans-serif;
+}
+.sinopse-texto{
+    padding: 10px 40px 5px 40px;
+    margin-bottom: 10px;
+    border: #854829;
+    border-radius: 4px;
+}
+.sinopse{
+    border: none;
+}
+.toph-metal, .katara-vs-hama, .katara-vs-azula{
+    display: inline-block;
+    margin: 20px;
+/* position: absolute; */
+/* border: 3px solid #30393c; */
+font-family: 'Exo 2', sans-serif;
+color: black;
+font-size: 25px;
+
+}
+.melhores-momentos, .diretor{
+    font-family: 'Exo 2', sans-serif;
+    color: black;
+    font-size: 25px;
+    color:#854829;
+}
+.melhores-momentos{
+    position: relative;
+    left: 100px;
+}
+.toph-metal{
+    left: 1550px;
+    margin-left: 300px;
+}
+.katara-vs-azula{
+    left: 810px;
+}
+.katara-vs-hama{
+    left: 50px;
+}
+.diretor{
+    position: absolute;
+    left: 100px;
+    top: 2200px;
+}
+.michael{
+    position: absolute;
+    top: 100px;
+    left: 500px;
+}
+.avaliacao-tit{
+    position: absolute;
+    left: 500px;
+    bottom: 10px;
+    top: 100px;
+    border-radius: 4px;
+}
+.avaliacao{
+    position: absolute;
+    left: 500px;
+    bottom: 50px;
+    border-radius: 30px;
+}
+.img{
+    border-radius: 100px;
+    /* background-color: darkred; */
+    position: fixed;
+    top: 700px;
+    left: 1780px;
+    color: white;
+    /* text-align: center; */
+    border: 3px solid gray;
+    background-color: grey;
+}
+.pagina1{
+    font-family: 'Exo 2', sans-serif;
+    color: black;
+    font-size: 25px;
+    color:#854829;
+    /* text-decoration: none; */
+    position: absolute;
+    left: 550px;
+    top: 2850px;
+}
