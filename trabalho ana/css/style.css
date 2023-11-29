@@ -1,0 +1,33 @@
+.menu{
+    justify-content: end;
+    margin: 10px;
+    align-items: center;
+    display: flex;
+    
+}
+.nav, .logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo{
+    width: 80px;
+}
+
+.img-produto{
+    display: flex;
+    justify-content: center;
+}
+#tenis{
+    width: 500px;   
+}
+.tenis{
+    margin-right: 60px;
+}
+.tit-tenis{
+    justify-content: end;
+    margin-left: 50px;
+}
+.artigos{
+    
+}
