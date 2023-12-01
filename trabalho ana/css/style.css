@@ -1,22 +1,28 @@
-.menu{
-    justify-content: end;
-    margin: 10px;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    text-decoration: none;
+    justify-content: space-around;
     align-items: center;
-    display: flex;
-    
 }
-.nav, .logo{
-    display: flex;
-    justify-content: space-between;
+.menu{
+    color: black;
+    text-decoration: none;
 }
-
 #logo{
     width: 80px;
+    display: flex;
 }
 
 .img-produto{
     display: flex;
     justify-content: center;
+    margin-left: 350px;
+    margin-right: 250px;
 }
 #tenis{
     width: 500px;   
@@ -28,6 +34,90 @@
     justify-content: end;
     margin-left: 50px;
 }
-.artigos{
-    
+
+.descricao-tenis{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ /* .artigos{
+    text-justify: auto;
+}  */
+
+.descricao-tabela{
+    margin-left: 350px;
+}
+
+
+
+
+
+
+
+.footer1{
+    display: flex;
+    border-top: 1px solid rgb(0, 0, 0);
+    flex-direction: column;
+    padding: 20px;
+    background-color: black;
+}
+.footer2{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.item1{
+    width: auto;
+    border-right: 1px solid rgb(160, 161, 161);
+    display: inline-block;
+    margin: auto;
+    padding: 5px;
+}
+.item2{
+    width: auto;
+    border-right: 1px solid rgb(160, 161, 161);
+    display: inline-block;
+    margin: auto;
+    padding: 5px;
+}
+.item3{
+    width: auto;
+    border-right: 1px solid rgb(160, 161, 161);
+    display: inline-block;
+    margin: auto;
+    padding: 5px;
+}
+.item4{
+    width: auto;
+    border-right: 1px solid rgb(160, 161, 161);
+    display: inline-block;
+    margin: auto;
+    padding: 5px;
+}
+.item5{
+    width: auto;
+    border-right: 1px solid rgb(160, 161, 161);
+    display: inline-block;
+    margin: auto;
+    padding: 5px;
+}
+.item6{
+    width: auto;
+    border-right: 1px solid rgb(160, 161, 161);
+    display: inline-block;
+    margin: auto;
+    padding: 5px;
+}
+.Endereco{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+.link{
+    color: white;
+    text-decoration: none;
 }
